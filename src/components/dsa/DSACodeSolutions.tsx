@@ -296,7 +296,7 @@ export const DSACodeSolutions: React.FC<DSACodeSolutionsProps> = ({
                     wrapLines={true}
                     wrapLongLines={true}
                   >
-                    {solution.code.substring(0, 200)}{solution.code.length > 200 ? '...' : ''}
+                    {solution.code.substring(0, 500)}{solution.code.length > 500 ? '...' : ''}
                   </SyntaxHighlighter>
                 </div>
                 {solution.notes && (
